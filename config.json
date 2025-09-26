@@ -1,8 +1,7 @@
-
 {
     "output": {
-        "folder": "U",
-        "bestFolder": "Y",
+        "folder": "streams",
+        "bestFolder": "best",
         "masterFolder": ""
     },
     "channels": [
