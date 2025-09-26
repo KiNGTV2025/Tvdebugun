@@ -1,43 +1,184 @@
 {
-  "output": {
-    "folder": "streams",
-    "bestFolder": "best",
-    "masterFolder": ""
-  },
-  "channels": [
-    { "name": "TRT 1", "slug": "trt1", "url": "https://www.trt1.com.tr/canli-yayin" },
-    { "name": "TRT Haber", "slug": "trthaber", "url": "https://www.trthaber.com/canli-yayin-izle.html" },
-    { "name": "TRT Spor", "slug": "trtspor", "url": "https://www.trtspor.com.tr/canli-yayin-izle/trt-spor" },
-    { "name": "TRT Çocuk", "slug": "trtcocuk", "url": "https://www.trtcocuk.net.tr/canli-yayin" },
-    { "name": "TRT Belgesel", "slug": "trtbelgesel", "url": "https://www.trtbelgesel.com.tr/canli-yayin" },
-
-    { "name": "ATV", "slug": "atv", "url": "https://www.atv.com.tr/canli-yayin" },
-    { "name": "Kanal D", "slug": "kanald", "url": "https://www.kanald.com.tr/canli-yayin" },
-    { "name": "Show TV", "slug": "showtv", "url": "https://www.showtv.com.tr/canli-yayin" },
-    { "name": "Star TV", "slug": "startv", "url": "https://www.startv.com.tr/canli-yayin" },
-    { "name": "FOX", "slug": "fox", "url": "https://www.fox.com.tr/canli-yayin" },
-    { "name": "TV8", "slug": "tv8", "url": "https://www.tv8.com.tr/canli-yayin" },
-    { "name": "Kanal 7", "slug": "kanal7", "url": "https://www.kanal7.com/canli-izle" },
-
-    { "name": "A Haber", "slug": "ahaber", "url": "https://www.ahaber.com.tr/canli-yayin" },
-    { "name": "CNN Türk", "slug": "cnnturk", "url": "https://www.cnnturk.com/canli-yayin" },
-    { "name": "NTV", "slug": "ntv", "url": "https://www.ntv.com.tr/canli-yayin" },
-    { "name": "Habertürk", "slug": "haberturk", "url": "https://www.haberturk.com/canli-yayin" },
-    { "name": "Bloomberg HT", "slug": "bloomberght", "url": "https://www.bloomberght.com/canli-yayin" },
-
-    { "name": "A Spor", "slug": "aspor", "url": "https://www.aspor.com.tr/canli-yayin" },
-    { "name": "TV100", "slug": "tv100", "url": "https://www.youtube.com/@tv100/live" },
-    { "name": "TVNET", "slug": "tvnet", "url": "https://www.youtube.com/@TVNET/live" },
-    { "name": "Halk TV", "slug": "halktv", "url": "https://www.halktv.com.tr/canli-yayin" },
-    { "name": "Tele1", "slug": "tele1", "url": "https://www.youtube.com/@tele1tv/live" },
-
-    { "name": "Ülke TV", "slug": "ulketv", "url": "https://www.dailymotion.com/video/x7yb4xm" },
-    { "name": "Ulusal Kanal", "slug": "ulusalkanal", "url": "https://www.ulusalkanal.com.tr/canliyayin" },
-    { "name": "Beyaz TV", "slug": "beyaztv", "url": "https://beyaztv.com.tr/canli-yayin" },
-    { "name": "TV4", "slug": "tv4", "url": "https://www.tv4.com.tr/canli-yayin" },
-    { "name": "NOW TV", "slug": "nowtv", "url": "https://www.nowtv.com.tr/canli-yayin" },
-
-    { "name": "TV100 (yedek)", "slug": "tv100_yedek", "url": "https://www.tv100.com.tr/canli-yayin" },
-    { "name": "Kanal D (alternatif)", "slug": "kanald_alt", "url": "https://canlitv.com/kanald-izle" }
-  ]
+    "output": {
+        "folder": "streams",
+        "bestFolder": "best",
+        "masterFolder": ""
+    },
+    "channels": [
+        {
+            "name": "ShowMax",
+            "slug": "showmax",
+            "url": "http://www.showmax.com.tr/canliyayin"
+        },
+        {
+            "name": "ShowTürk",
+            "slug": "showturk",
+            "url": "https://www.showturk.com.tr/canli-yayin/showturk"
+        },
+        {
+            "name": "SHOWTV",
+            "slug": "SHOWTV",
+            "url": "https://www.showtv.com.tr/canli-yayin"
+        },
+        {
+            "name": "KANALD",
+            "slug": "KANALD",
+            "url": "https://www.kanald.com.tr/canli-yayin"
+        },
+        {
+            "name": "atv",
+            "slug": "atv",
+            "url": "https://www.atv.com.tr/canli-yayin"
+        },
+        {
+            "name": "KANAL7",
+            "slug": "KANAL7",
+            "url": "https://www.kanal7.com/canli-izle"
+        },
+        {
+            "name": "Now",
+            "slug": "Nowtv",
+            "url": "https://www.nowtv.com.tr/canli-yayin"
+        },
+        {
+            "name": "rossiya-1",
+            "slug": "rossiya-1",
+            "url": "https://d-iptv.az/web-player#/tv/favorite/allChannel/channel/185/"
+        },
+        {
+            "name": "TRT Haber",
+            "slug": "trthaber",
+            "url": "https://www.youtube.com/@trthaber/live"
+        },
+        {
+            "name": "SUNNAH",
+            "slug": "SUNNAH",
+            "url": "https://www.elahmad.com/tv/sunnatv.php"
+        },
+        {
+            "name": "tv100",
+            "slug": "tv100",
+            "url": "https://www.youtube.com/@tv100/live"
+        },
+        {
+            "name": "TVNET",
+            "slug": "tvnet",
+            "url": "https://www.youtube.com/@TVNET/live"
+        },
+        {
+            "name": "Ülke TV",
+            "slug": "ulketv",
+            "url": "https://www.dailymotion.com/video/x7yb4xm"
+        },
+        {
+            "name": "Ulusal Kanal",
+            "slug": "ulusalkanal",
+            "url": "https://www.youtube.com/@ulusalkanalTV/live"
+        },
+        {
+            "name": "Vav TV",
+            "slug": "vavtv",
+            "url": "https://www.youtube.com/@vavtv/live"
+        },
+        {
+            "name": "Yeni Gelin",
+            "slug": "yenigelin",
+            "url": "https://www.youtube.com/@yenigelindizi/live"
+        },
+        {
+            "name": "Zemheri",
+            "slug": "zemheri",
+            "url": "https://www.youtube.com/@zemheridizi/live"
+        },
+        {
+            "name": "Kızılcık Şerbeti",
+            "slug": "kizilcikserbeti",
+            "url": "https://www.youtube.com/@kizilcikserbetidizi/live"
+        },
+        {
+            "name": "Göç Zamanı",
+            "slug": "goczamani",
+            "url": "https://www.youtube.com/@GocZamani/live"
+        },
+        {
+            "name": "Star TV",
+            "slug": "startv",
+            "url": "https://www.youtube.com/@StarTVResmi/live"
+        },
+        {
+            "name": "EarthTV - Original",
+            "slug": "earthtv_original",
+            "url": "https://www.youtube.com/watch?v=HfgIFGbdGJ0"
+        },
+        {
+            "name": "EarthTV - Showcase",
+            "slug": "earthtv_showcase",
+            "url": "https://www.youtube.com/watch?v=buAV1t5-23w"
+        },
+        {
+            "name": "EarthTV - White House",
+            "slug": "earthtv_whouse",
+            "url": "https://www.youtube.com/watch?v=mzCc5yX9soY"
+        },
+        {
+            "name": "TV Kayseri",
+            "slug": "tvkayseri",
+            "url": "https://www.twitch.tv/tvkayseri"
+        },
+        {
+            "name": "Konuşam Tom",
+            "slug": "konusantom",
+            "url": "https://www.youtube.com/@TalkingFriendsTR/live"
+        },
+        {
+            "name": "Mutlu Çocuk",
+            "slug": "mutlucocuk",
+            "url": "https://www.youtube.com/@MutluCocuk/live"
+        },
+        {
+            "name": "Küçük Kamyon Leo",
+            "slug": "kucukkamyonleo",
+            "url": "https://www.youtube.com/@KucukKamyonLeo/live"
+        },
+        {
+            "name": "Kukuli",
+            "slug": "kukuli",
+            "url": "https://www.youtube.com/@Kukuli/live"
+        },
+        {
+            "name": "Kukuli Şarkılar",
+            "slug": "kukulisarkilar",
+            "url": "https://www.youtube.com/@KukuliSarkilar/live"
+        },
+        {
+            "name": "Furkiş TV",
+            "slug": "furkistv",
+            "url": "https://www.youtube.com/@FurkisTV/live"
+        },
+        {
+            "name": "Cumburlop TV",
+            "slug": "cumburloptv",
+            "url": "https://www.youtube.com/@CumburlopTV/live"
+        },
+        {
+            "name": "Nil RTV",
+            "slug": "nilrtv",
+            "url": "https://www.youtube.com/@Nilradyotv/live"
+        },
+        {
+            "name": "Aşk-ı Neva",
+            "slug": "askineva",
+            "url": "https://www.youtube.com/@askineva/live"
+        },
+        {
+            "name": "Van TV",
+            "slug": "vantv",
+            "url": "https://www.twitch.tv/vantvnet"
+        },
+        {
+            "name": "Huzur Pınarı TV",
+            "slug": "huzurpinari",
+            "url": "https://www.youtube.com/@HuzurPinariTV/live"
+        }
+    ]
 }
