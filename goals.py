@@ -32,11 +32,11 @@ def main():
     if not domain:
         print("❌ UYARI: Hiçbir domain çalışmıyor - boş klasör oluşturulacak")
     
-    # Kanallar
+    # Kanallar - benzersiz isimler kullanıyoruz
     channel_ids = {
-        "yayinzirve": "beIN Sports 1 ☪️",
-        "yayininat": "beIN Sports 1 ⭐",
-        "yayin1": "beIN Sports 1 ♾️",
+        "yayinzirve": "beIN Sports 1 Zirve",
+        "yayininat": "beIN Sports 1 Yildiz",
+        "yayin1": "beIN Sports 1 Sonsuz",
         "yayinb2": "beIN Sports 2",
         "yayinb3": "beIN Sports 3",
         "yayinb4": "beIN Sports 4",
@@ -58,14 +58,14 @@ def main():
         "yayintv8": "TV8",
         "yayintv85": "TV8.5",
         "yayinnbatv": "NBA TV",
-        "yayinex1": "Tâbii 1",
-        "yayinex2": "Tâbii 2",
-        "yayinex3": "Tâbii 3",
-        "yayinex4": "Tâbii 4",
-        "yayinex5": "Tâbii 5",
-        "yayinex6": "Tâbii 6",
-        "yayinex7": "Tâbii 7",
-        "yayinex8": "Tâbii 8",
+        "yayinex1": "Tabii 1",
+        "yayinex2": "Tabii 2",
+        "yayinex3": "Tabii 3",
+        "yayinex4": "Tabii 4",
+        "yayinex5": "Tabii 5",
+        "yayinex6": "Tabii 6",
+        "yayinex7": "Tabii 7",
+        "yayinex8": "Tabii 8",
         "yayintrt1": "TRT1",
     }
     
@@ -128,16 +128,27 @@ def main():
 #EXT-X-STREAM-INF:BANDWIDTH=5500000,AVERAGE-BANDWIDTH=8976000,RESOLUTION=1920x1080,CODECS="avc1.640028,mp4a.40.2",FRAME-RATE=25
 {full_url}
 """
-            # Güvenli dosya adı oluşturma
+            # Güvenli ve benzersiz dosya adı oluşturma
             safe_name = re.sub(r'[^\w\s.-]', '_', channel_name)
-            safe_name = safe_name.replace(' ', '_') + ".m3u8"
-            path = os.path.join(folder_name, safe_name)
+            safe_name = safe_name.replace(' ', '_')
+            
+            # Benzersizlik sağlamak için channel_id ekleyelim
+            file_name = f"{safe_name}_{channel_id}.m3u8"
+            path = os.path.join(folder_name, file_name)
+            
+            # Aynı isimde dosya var mı kontrol et
+            counter = 1
+            original_path = path
+            while os.path.exists(path):
+                file_name = f"{safe_name}_{channel_id}_{counter}.m3u8"
+                path = os.path.join(folder_name, file_name)
+                counter += 1
             
             # Dosyayı yazma
             with open(path, "w", encoding="utf-8") as f:
                 f.write(content)
             
-            print(f"✅ {channel_name} → {safe_name}")
+            print(f"✅ {channel_name} → {file_name}")
             created += 1
             
             # Kısa bir bekleme süresi ekleyerek sunucu yükünü azalt
@@ -166,9 +177,6 @@ def main():
     else:
         print("\nℹ️  Hiç dosya oluşturulamadı, lütfen internet bağlantınızı kontrol edin.")
 
-if __name__ == "__main__":
-    main()
-    # goals.py dosyasının en sonuna şunu ekleyin:
 if __name__ == "__main__":
     try:
         main()
