@@ -1,4 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="TR: BEINSPORTS1 HD" tvg-logo="https://i.hizliresim.com/4mre3hh.png" group-title="xsportv",TR: BEINSPORTS1 HD
+#EXTVLCOPT:http-referer=https://www.xsportv57.xyz/
+https://dga1op10s1u3leo.ec876fd9240622.click/live/xbeinsports-1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TR: BEINSPORTS2 HD" tvg-logo="https://i.hizliresim.com/4mre3hh.png" group-title="xsportv",TR: BEINSPORTS2 HD
 #EXTVLCOPT:http-referer=https://www.xsportv57.xyz/
 https://dga1op10s1u3leo.ec876fd9240622.click/live/xbeinsports-2/playlist.m3u8
