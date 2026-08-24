@@ -1,10 +1,10 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2000000,CODECS="",RESOLUTION=1920x1080
-https://trkvz-live.ercdn.net/atvhd/atvhd_1080p.m3u8?st=BQ_8TO9xEu7c7UbZ5fdtlA&e=1787634486
+https://trkvz-live.ercdn.net/atvhd/atvhd_1080p.m3u8?st=OSMhpWg8MHs1P85YRBPKaA&e=1787641808
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1200000,CODECS="",RESOLUTION=1536x864
-https://trkvz-live.ercdn.net/atvhd/atvhd_720p.m3u8?st=BQ_8TO9xEu7c7UbZ5fdtlA&e=1787634486
+https://trkvz-live.ercdn.net/atvhd/atvhd_720p.m3u8?st=OSMhpWg8MHs1P85YRBPKaA&e=1787641808
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=400000,CODECS="",RESOLUTION=768x432
-https://trkvz-live.ercdn.net/atvhd/atvhd_360p.m3u8?st=BQ_8TO9xEu7c7UbZ5fdtlA&e=1787634486
+https://trkvz-live.ercdn.net/atvhd/atvhd_360p.m3u8?st=OSMhpWg8MHs1P85YRBPKaA&e=1787641808
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=200000,CODECS="",RESOLUTION=512x288
-https://trkvz-live.ercdn.net/atvhd/atvhd_240p.m3u8?st=BQ_8TO9xEu7c7UbZ5fdtlA&e=1787634486
+https://trkvz-live.ercdn.net/atvhd/atvhd_240p.m3u8?st=OSMhpWg8MHs1P85YRBPKaA&e=1787641808
